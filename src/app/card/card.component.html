@@ -1,0 +1,11 @@
+<!-- <div class="container"> -->
+<div class="card" >
+    
+    <img [src]="books?.image" class="card-img-top img-fluid" alt="...">
+    <div class="card-body">
+        <h5 class="card-title ">{{books?.title}}</h5>
+         <p class="card-author">{{books?.author}}</p>
+         <p class="card-price">${{books?.price?.displayValue}}</p>
+         <button (click)="addToCart(books!)" class="btn btn-primary">Add to Cart</button>
+    </div>
+</div>

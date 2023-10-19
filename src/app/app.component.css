@@ -1,0 +1,63 @@
+/* .carddesign {
+    width: 100%;
+    height: 350px;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* overflow: hidden; } */
+
+  /* .carddesign:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .carddesign img {
+    width: 100%;
+    height: 250px;
+  }
+
+  .carddesign h5 {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px 0;
+  }
+
+  .carddesign p {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 0 10px;
+    line-height: 1.4;
+  } */
+
+  /* .cardDesign {
+    width: 18rem;
+    margin-bottom: 20px;
+    height:20rem;
+  }
+  
+  .cardDesign img {
+    max-width: 100%;
+    height: auto;
+  } */
+  .bookcontainer{
+    justify-content: space-between;
+    gap: 1vw;
+  }
+
+  .pay-now-btn {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .pay-now-btn:hover {
+    background-color: #198754;
+    cursor: pointer;
+  }
+  
